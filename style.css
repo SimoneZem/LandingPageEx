@@ -1,3 +1,20 @@
+#header-container { 
+    /*as i said previously i had to consider that i need a row and
+    my width have to be the 100% of mi viewport*/
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: sans-serif;
+    flex-direction: row;
+    
+}
+
 #logo {
     background-color: white;
+}
+
+#nav-bar {
+    display: flex; /*e i think is useless cause i already set this property on header container */
+    flex-direction: row;
 }
