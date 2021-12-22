@@ -17,6 +17,21 @@
     overflow: visible;
 }
 
+#wrapper {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+
 
 #logo {
     background-color: white;
