@@ -5,7 +5,9 @@
 </head>
 
 <!--
-User Story #7: My landing page has a form element with a corresponding id="form".-->
+User Story #8: Within the form, there is an input field with
+ id="email" where I can enter an email address.
+-->
 
 <body>
   <div id="header-container">
@@ -28,10 +30,20 @@ User Story #7: My landing page has a form element with a corresponding id="form"
   </div>
        
   <div id="wrapper">
-
-        <form id="form">
+      <div id="customer-section">
+       <section id="subscrire-area"> 
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <ul class="list-style">
+                <li class="label">
+                  <div class="input-container"> 
+                    <input type="email" placeholder="someone@example.com" name="email" id="email" class="text" required >
+                  </div>
+                </li>
+            </ul>
             
-        </form>  
+        </form> 
+       </section> 
+      </div>
 
       <div id="navbar-elements">
           <section id="demo">
@@ -49,6 +61,7 @@ User Story #7: My landing page has a form element with a corresponding id="form"
 </html>     
 
 <!--
-    Add video to my index page. Have to use share option directly on 
-    Youtube page <iframe>
+    For this task i've to create a field in my form for email.
+    I've to set action tag for routing yhe data submit in a 
+    dummy page
 -->
