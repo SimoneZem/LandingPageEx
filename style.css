@@ -8,12 +8,17 @@ input:invalid {
     /*as i said previously i had to consider that i need a row and
     my width have to be the 100% of mi viewport*/
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    font-size: 25px;
-    font-family: sans-serif;
     flex-direction: row;
-    
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+#header-position {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #nav-bar {
