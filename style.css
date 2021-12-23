@@ -3,6 +3,22 @@ input:invalid {
     outline: none;
   }
 
+/*e media query section */
+
+@media only screen and (max-width: 640px) {
+    #header-container {
+      flex-direction: column;
+      align-items: center;
+    }
+   
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*e media query section */
+
 #header-container { 
     border: 1px solid red;
     /*as i said previously i had to consider that i need a row and
@@ -24,7 +40,7 @@ input:invalid {
 #nav-bar {
     display: flex; /*e i think is useless cause i already set this property on header container */
     flex-direction: row;
-    overflow: visible;
+    
 }
 
 #wrapper {
@@ -109,16 +125,84 @@ input:invalid {
     text-align: center;
 }
 
-/*e media query section */
+/*e card section */
 
-@media only screen and (max-width: 640px) {
-    #header-container {
-      flex-direction: column;
-      align-items: center;
-    }
-   
-    #nav-bar {
-        display: flex;
-        flex-direction: column;
-    }
+#price {
+    margin-top: 100px; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid black;
+    margin: 30px 20px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-header {
+    height: 35px;
+    background-color: lightgrey;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card-title {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-price {
+    padding: 0;
+    margin: 0px 0px 20px 0px; /*e clockwork order */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-description {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-details {
+    padding: 0 20px;
+    line-height: 45px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.card-button {
+    text-decoration: none;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.card-img {
+    align-self: center;
+    margin-top: 30px;
+    
 }
