@@ -104,3 +104,7 @@ input:invalid {
     align-content: center;
     margin-top: 20px;
 }
+
+#title {
+    text-align: center;
+}
